@@ -11,15 +11,15 @@ const Footer = () => {
           <Image src="/logo.png" alt="Max Ajwang" width={50} height={50} />
           <h1 className={styles.logoText}>Max Ajwang'</h1>
         </div>
-        <p className={styles.desc}>
-          Copyright &copy; 2024. All rights reserved.
-        </p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={18} height={18} />
           <Image src="/instagram.png" alt="" width={18} height={18} />
           <Image src="/tiktok.png" alt="" width={18} height={18} />
           <Image src="/youtube.png" alt="" width={18} height={18} />
         </div>
+        <p className={styles.desc}>
+          Copyright &copy; 2024. All rights reserved.
+        </p>
       </div>
       <div className={styles.links}>
         <div className={styles.list}>
@@ -34,6 +34,8 @@ const Footer = () => {
           <Link href="/">Technology</Link>
           <Link href="/">Coding</Link>
           <Link href="/">Cyber Security</Link>
+          <Link href="/">Finance</Link>
+          <Link href="/">Fitness</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Social Media</span>
